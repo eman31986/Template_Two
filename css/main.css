@@ -33,15 +33,6 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
-
-/*html ,body{
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-} */
-
 /* Small */
 @media (min-width: 768px) {
     .container {
@@ -618,7 +609,7 @@ header nav .form i{
 }
 .our-skills .testimonials .content{
     display: flex;
-    align-items: center; /* لمنع الصور من التمدد  */
+    align-items: center; 
     margin-bottom: 30px; 
 }
 .our-skills .testimonials .content img{
