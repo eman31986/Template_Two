@@ -18,6 +18,11 @@ html{
 }
 body{
     font-family: "Open Sans",sans-serif;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 ul{
     list-style: none;
@@ -29,24 +34,32 @@ ul{
     margin-right: auto;
 }
 
+/*html ,body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+} */
+
 /* Small */
 @media (min-width: 768px) {
     .container {
-      width: 750px;
+    width: 750px;
     }
-  }
+}
   /* Medium */
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .container {
-      width: 970px;
+    width: 970px;
     }
-  }
+}
   /* Large */
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
-      width: 1170px;
+    width: 1170px;
     }
-  }
+}
 /* End global rules */
 
 /* Start Components */
@@ -86,7 +99,7 @@ ul{
     width: 550px;
     margin: 0 auto 100px;
     max-width: 100%;
-    line-height: 2;
+    line-height: 1.8;
     color: #777;
 }
 /* End Components */
@@ -112,7 +125,7 @@ header .container::after{
     background-color: #a2a2a2;
     bottom: -1px;
     width: 100%;
-    left: 15px;
+    left: 0px;
 }
 header img{
     height: 35px;
